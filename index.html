@@ -1,78 +1,51 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Basnet Font Demo</title>
   <style>
     @font-face {
-      font-family: 'Basnet Demo';
+      font-family: 'BasnetDemo';
       src: url('BasnetDemo.woff2') format('woff2');
-      font-weight: normal;
-      font-style: normal;
     }
     body {
       font-family: Arial, sans-serif;
-      background: #f7f7f7;
-      margin: 0;
-      padding: 40px 20px;
-      text-align: center;
+      padding: 2rem;
+      background: #f8f8f8;
     }
     h1 {
-      font-size: 40px;
-      margin-bottom: 10px;
-      font-family: 'Basnet Demo', sans-serif;
-    }
-    p {
-      font-size: 18px;
-      margin-bottom: 30px;
+      font-family: 'BasnetDemo';
+      font-size: 3rem;
+      margin-bottom: 1rem;
     }
     textarea {
-      font-family: 'Basnet Demo', sans-serif;
-      font-size: 32px;
-      padding: 15px;
-      width: 90%;
-      max-width: 700px;
-      min-height: 100px;
-      resize: vertical;
-      border: 2px solid #ccc;
-      border-radius: 10px;
-      background-color: #fff;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
-    }
-    .button {
-      display: inline-block;
-      margin-top: 30px;
-      padding: 14px 28px;
-      font-size: 16px;
-      font-weight: bold;
-      background-color: #222;
-      color: white;
-      text-decoration: none;
+      width: 100%;
+      font-family: 'BasnetDemo';
+      font-size: 2rem;
+      padding: 1rem;
+      border: 1px solid #ccc;
       border-radius: 8px;
-      transition: background-color 0.3s;
+      resize: vertical;
     }
-    .button:hover {
-      background-color: #444;
-    }
-    footer {
-      margin-top: 60px;
-      font-size: 14px;
-      color: #888;
+    .download {
+      margin-top: 2rem;
+      display: inline-block;
+      padding: 0.75rem 1.5rem;
+      background: #333;
+      color: white;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
     }
   </style>
 </head>
 <body>
-  <h1>Basnet Font Demo</h1>
-  <p>Preview and test the <strong>Basnet</strong> demo font below:</p>
-
-  <textarea placeholder="Type your text here...">Typography is power.</textarea>
-
+  <h1>Basnet Demo Font</h1>
+  <p>Try typing below using the Basnet demo font:</p>
+  <textarea rows="4">The quick brown fox jumps over the lazy dog.</textarea>
   <br />
-  <a class="button" href="Basnet_Demo_WOFF2.zip" download>⬇ Download Demo Font</a>
-
-  <footer>
-    <p>Font by Aqeela Studio &middot; For demo use only</p>
-  </footer>
+  <a class="download" href="Basnet_Demo_WOFF2.zip" download>⬇ Download Demo Font</a>
 </body>
 </html>
